@@ -1,0 +1,616 @@
+/*  */
+/* CSS: FOR MODIFY HTML SCROLLBAR */
+/* Change For Webkit browsers (Chrome, Safari) Scrollbar */
+/*  */
+html {
+    /* Set a fixed height and width for the container */
+    height: 100%;
+    width: 100%;
+    /* Add overflow and hide the default scrollbar */
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+/*  */
+/*  */
+/*  */
+
+/*  */
+/*  */
+/* .mb-4{
+    margin-bottom: 1.5rem !important;
+} */
+input.w-18-vw {
+    width: 60%;
+}
+.input-field {
+    padding-left: 4px;
+}
+select.w-18-vw {
+    width: 60%;
+}
+.w-colon::after {
+    content: "::   ";
+    display: inline-block;
+    margin-right: 4px; /* Adjust as needed */
+}
+
+.custom-justify-between {
+    justify-content: space-between;
+}
+
+.custom-mb-0-52 {
+    margin-bottom: 0.52rem;
+}
+
+.custom-mt-6 {
+    margin-top: 1.5rem;
+}
+
+.custom-h-full {
+    height: 100%;
+}
+
+/*  */
+/*  */
+/* CSS: TAB */
+.tab-container {
+    width: 100%;
+    /* max-width: 600px; */
+    min-width: 28vw;
+    /* min-height: 52vh; */
+    margin: 0 auto;
+    align-self: center;
+    align-content: center;
+    /* display: flex; */
+}
+
+form{
+    width: 100%;
+}
+
+.tab {
+    display: none;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.tab-footer {
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    padding: 10px 2px;
+}
+.tab-lastfooter {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 8px;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+/*  */
+
+
+/*  */
+/*  */
+/*  */
+.d-none{
+    display: none;
+}
+/*  */
+
+
+
+/*  */
+/*  */
+/* CSS: PADDING */
+.cpx-0 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.cpx-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.cpx-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.cpx-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.cpx-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cpx-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.cpx-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.cpx-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.cpx-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cpx-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+}
+
+.cpx-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.cpx-11 {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+}
+
+.cpx-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.cpx-13 {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
+
+.cpx-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.cpx-15 {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+}
+
+.cpx-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.cpx-17 {
+    padding-left: 4.25rem;
+    padding-right: 4.25rem;
+}
+
+.cpx-18 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+.cpx-19 {
+    padding-left: 4.75rem;
+    padding-right: 4.75rem;
+}
+
+.cpx-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.cpx-21 {
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+}
+
+.cpx-22 {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+
+.cpx-23 {
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+}
+
+.cpx-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.cpx-25 {
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
+
+.cpy-0 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.cpy-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.cpy-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cpy-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.cpy-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cpy-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.cpy-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.cpy-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.cpy-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cpy-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+}
+
+.cpy-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.cpy-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+}
+
+.cpy-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.cpy-13 {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+}
+
+.cpy-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.cpy-15 {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.cpy-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.cpy-17 {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+.cpy-18 {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.cpy-19 {
+    padding-top: 4.75rem;
+    padding-bottom: 4.75rem;
+}
+
+.cpy-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.cpy-21 {
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
+}
+
+.cpy-22 {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.cpy-23 {
+    padding-top: 5.75rem;
+    padding-bottom: 5.75rem;
+}
+
+.cpy-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.cpy-25 {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+/*  */
+
+
+/*  */
+/*  */
+/* CSS: MARGIN */
+.cml-1 {
+    margin-left: 0.25rem;
+}
+
+.cml-2 {
+    margin-left: 0.5rem;
+}
+
+.cml-3 {
+    margin-left: 0.75rem;
+}
+
+.cml-4 {
+    margin-left: 1rem;
+}
+
+.cml-5 {
+    margin-left: 1.25rem;
+}
+
+.cml-6 {
+    margin-left: 1.5rem;
+}
+
+.cml-7 {
+    margin-left: 1.75rem;
+}
+
+.cml-8 {
+    margin-left: 2rem;
+}
+
+.cml-9 {
+    margin-left: 2.25rem;
+}
+
+.cml-10 {
+    margin-left: 2.5rem;
+}
+
+.cml-11 {
+    margin-left: 2.75rem;
+}
+
+.cml-12 {
+    margin-left: 3rem;
+}
+
+.cml-13 {
+    margin-left: 3.25rem;
+}
+
+.cml-14 {
+    margin-left: 3.5rem;
+}
+
+.cml-15 {
+    margin-left: 3.75rem;
+}
+
+.cml-16 {
+    margin-left: 4rem;
+}
+
+.cml-17 {
+    margin-left: 4.25rem;
+}
+
+.cml-18 {
+    margin-left: 4.5rem;
+}
+
+.cml-19 {
+    margin-left: 4.75rem;
+}
+
+.cml-20 {
+    margin-left: 5rem;
+}
+
+.cml-21 {
+    margin-left: 5.25rem;
+}
+
+.cml-22 {
+    margin-left: 5.5rem;
+}
+
+.cml-23 {
+    margin-left: 5.75rem;
+}
+
+.cml-24 {
+    margin-left: 6rem;
+}
+
+.cml-25 {
+    margin-left: 6.25rem;
+}
+
+.cmr-1 {
+    margin-right: 0.25rem;
+}
+
+.cmr-2 {
+    margin-right: 0.5rem;
+}
+
+.cmr-3 {
+    margin-right: 0.75rem;
+}
+
+.cmr-4 {
+    margin-right: 1rem;
+}
+
+.cmr-5 {
+    margin-right: 1.25rem;
+}
+
+.cmr-6 {
+    margin-right: 1.5rem;
+}
+
+.cmr-7 {
+    margin-right: 1.75rem;
+}
+
+.cmr-8 {
+    margin-right: 2rem;
+}
+
+.cmr-9 {
+    margin-right: 2.25rem;
+}
+
+.cmr-10 {
+    margin-right: 2.5rem;
+}
+
+.cmr-11 {
+    margin-right: 2.75rem;
+}
+
+.cmr-12 {
+    margin-right: 3rem;
+}
+
+.cmr-13 {
+    margin-right: 3.25rem;
+}
+
+.cmr-14 {
+    margin-right: 3.5rem;
+}
+
+.cmr-15 {
+    margin-right: 3.75rem;
+}
+
+.cmr-16 {
+    margin-right: 4rem;
+}
+
+.cmr-17 {
+    margin-right: 4.25rem;
+}
+
+.cmr-18 {
+    margin-right: 4.5rem;
+}
+
+.cmr-19 {
+    margin-right: 4.75rem;
+}
+
+.cmr-20 {
+    margin-right: 5rem;
+}
+
+.cmr-21 {
+    margin-right: 5.25rem;
+}
+
+.cmr-22 {
+    margin-right: 5.5rem;
+}
+
+.cmr-23 {
+    margin-right: 5.75rem;
+}
+
+.cmr-24 {
+    margin-right: 6rem;
+}
+
+.cmr-25 {
+    margin-right: 6.25rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */

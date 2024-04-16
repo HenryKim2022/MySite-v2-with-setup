@@ -1,0 +1,56 @@
+/*  */
+/* CSS: FOR MODIFY HTML SCROLLBAR */
+/* Change For Webkit browsers (Chrome, Safari) Scrollbar */
+/*  */
+html {
+    /* Set a fixed height and width for the container */
+    height: 100%;
+    width: 100%;
+    /* Add overflow and hide the default scrollbar */
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+/*  */
+/*  */
+/*  */
+
+
+
+/*  */
+/*  */
+.custom-justify-between {
+  justify-content: space-between;
+}
+
+.custom-mb-0-52{
+    margin-bottom: 0.52rem;
+}
+
+.custom-mt-6{
+    margin-top: 1.5rem;
+}
+
+.custom-h-full{
+    height: 100%;
+}
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
